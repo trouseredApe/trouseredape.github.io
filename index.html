@@ -56,72 +56,53 @@
             }
             
             /* Sidebar */
+            .percentageBar {
+              display: block;
+              height:14px;
+              border:1px solid whitesmoke;
+            }
             .percentageFill75 {
-                height:14px;
-            
                 background: -webkit-linear-gradient(left, #E5DED4 75%,#ffffff 75%);
                 background: -moz-linear-gradient(left, #E5DED4 75%, #ffffff 75%);
                 background: -ms-linear-gradient(left, #E5DED4 75%,#ffffff 75%);
                 background: -o-linear-gradient(left, #E5DED4 75%,#ffffff 75%);
                 background: linear-gradient(to right, #E5DED4 75%,#ffffff 75%);
-            
-                border:1px solid whitesmoke;
             }
             .percentageFill50 {
-                height:14px;
-            
                 background: -webkit-linear-gradient(left, #E5DED4 50%,#ffffff 50%);
                 background: -moz-linear-gradient(left, #E5DED4 50%, #ffffff 50%);
                 background: -ms-linear-gradient(left, #E5DED4 50%,#ffffff 50%);
                 background: -o-linear-gradient(left, #E5DED4 50%,#ffffff 50%);
                 background: linear-gradient(to right, #E5DED4 50%,#ffffff 50%);
-            
-                border:1px solid whitesmoke;
             }
             .percentageFill20 {
-                height:14px;
-            
                 background: -webkit-linear-gradient(left, #E5DED4 20%,#ffffff 20%);
                 background: -moz-linear-gradient(left, #E5DED4 20%, #ffffff 20%);
                 background: -ms-linear-gradient(left, #E5DED4 20%,#ffffff 20%);
                 background: -o-linear-gradient(left, #E5DED4 20%,#ffffff 20%);
                 background: linear-gradient(to right, #E5DED4 20%,#ffffff 20%);
-            
-                border:1px solid whitesmoke;
             }
             .percentageFill90 {
-                height:14px;
-            
                 background: -webkit-linear-gradient(left, #E5DED4 90%,#ffffff 90%);
                 background: -moz-linear-gradient(left, #E5DED4 90%, #ffffff 90%);
                 background: -ms-linear-gradient(left, #E5DED4 90%,#ffffff 90%);
                 background: -o-linear-gradient(left, #E5DED4 90%,#ffffff 90%);
                 background: linear-gradient(to right, #E5DED4 90%,#ffffff 90%);
-            
-                border:1px solid whitesmoke;
             }
             
             .percentageFill100 {
-                height:14px;
-            
                 background: -webkit-linear-gradient(left, #E5DED4 100%,#ffffff 100%);
                 background:    -moz-linear-gradient(left, #E5DED4 100%, #ffffff 100%);
                 background:     -ms-linear-gradient(left, #E5DED4 100%,#ffffff 100%);
                 background:      -o-linear-gradient(left, #E5DED4 100%,#ffffff 100%);
                 background:         linear-gradient(to right, #E5DED4 100%,#ffffff 100%);
-            
-                border:1px solid whitesmoke;
             }
             .percentageFill35 {
-                height:14px;
-            
                 background: -webkit-linear-gradient(left, #E5DED4 35%,#ffffff 35%);
                 background: -moz-linear-gradient(left, #E5DED4 35%, #ffffff 35%);
                 background: -ms-linear-gradient(left, #E5DED4 35%,#ffffff 35%);
                 background: -o-linear-gradient(left, #E5DED4 35%,#ffffff 35%);
                 background: linear-gradient(to right, #E5DED4 35%,#ffffff 35%);
-            
-                border:1px solid whitesmoke;
             }
 
             .sidebar {
@@ -727,7 +708,7 @@
         </style>
     </head>
     
-    <body>
+    <body style="-webkit-print-color-adjust:exact;">
         <div class="container">
             <div class="row" id="resume">
                 <div class="col-xs-4 sidebar">
@@ -768,7 +749,7 @@
 						</h2>
                         <div class="item">
                             <div class="name">Core Programming</div>
-                            <div class="percentageFill100"></div>
+                            <div class="percentageBar percentageFill100"></div>
                             <div class="keywords">	<span class="label label-default">Java</span><span class="label label-default">J2EE</span>
                                 <span
                                 class="label label-default">AspectJ</span> <span
@@ -777,7 +758,7 @@
                         </div>
                         <div class="item">
                             <div class="name">BDD/TDD</div>
-                            <div class="strength percentageFill90"></div>
+                            <div class="percentageBar percentageFill90"></div>
                             <div class="keywords">	
                               <span class="label label-default">mockito</span>
                               <span class="label label-default">selenium</span>
@@ -789,7 +770,7 @@
                         </div>
                         <div class="item">
                             <div class="name">UI/UX</div>
-                            <div class="strength percentageFill75"></div>
+                            <div class="percentageBar percentageFill75"></div>
                             <div class="keywords">	
                               <span class="label label-default">Angular</span>
 	                            <span class="label label-default">Dojo</span>
@@ -802,7 +783,7 @@
                         </div>
                         <div class="item">
                             <div class="name">Data &amp; Caching</div>
-                            <div class="strength percentageFill100"></div>
+                            <div class="percentageBar percentageFill100"></div>
                             <div class="keywords">	<span class="label label-default">RDBMS - db2, mysql, oracle, sql-server</span>
                                 <span class="label label-default">hadoop</span>	
                                 <span class="label label-default">mongodb</span>
@@ -812,7 +793,7 @@
                         </div>
                         <div class="item">
                             <div class="name">REST</div>
-                            <div class="strength percentageFill100"></div>
+                            <div class="percentageBar percentageFill100"></div>
                             <div class="keywords">	<span class="label label-default">Domain Driven Design</span>
 	<span class="label label-default">JsonAPI</span>
 
@@ -826,7 +807,7 @@
                         </div>
                         <div class="item">
                             <div class="name">Other Languages</div>
-                            <div class="strength percentageFill50"></div>
+                            <div class="percentageBar percentageFill50"></div>
                             <div class="keywords">	<span class="label label-default">Groovy and Grails</span>
 	<span class="label label-default">Bash</span>
 
@@ -837,7 +818,7 @@
                         </div>
                         <div class="item">
                             <div class="name">Cloud</div>
-                            <div class="strength percentageFill75"></div>
+                            <div class="percentageBar percentageFill75"></div>
                             <div class="keywords">	
                               <span class="label label-default">compute - ec2, beanstalk, lambda, auto-scale</span>
                               <span class="label label-default">network - vpc, route53, cloudfront</span>	<span class="label label-default">database - neptune, aurora, dynamodb</span>
@@ -847,7 +828,7 @@
                         </div>
                         <div class="item">
                             <div class="name">DevOps</div>
-                            <div class="strength percentageFill75"></div>
+                            <div class="percentageBar percentageFill75"></div>
                             <div class="keywords">	<span class="label label-default">chef</span>
 	<span class="label label-default">docker</span>
 
@@ -873,17 +854,15 @@
                     <section class="section-name">
                         	<h1>Pratik Pandey</h1>
 
-                        	<h2>Software Engineer, Leader</h2>
+                        	<h2>Senior Software Engineer</h2>
 
                     </section>
                     <section class="section-summary">
-                        	<h2 class="title">
-							    <span class="">Summary</span>
-							</h2>
-A proven leader with track record of successfully playing the following
-                        roles; Programmer, Dev Lead, Cloud Solutions Architect, and Practice
-                        Lead. Adept at finding solutions to complex business problem and drive projects
-                        to success.</section>
+                      <h2 class="title">
+							          <span class="">Summary</span>
+							        </h2>
+                        Versatile software leader with extensive experience in application development, and DevOps transformation. Responsive team builder leading by example in finding creative solutions to complex business problems. Thoughtful and optimistic, building consensus with strong troubleshooting skills while easily adapting and excelling in fast-changing environments.
+                  </section>
                     <section class="section-work">
                         	<h2 class="title">
 						    <span class="">Experience</span>
@@ -908,19 +887,18 @@ A proven leader with track record of successfully playing the following
 </span>
                             </div>
                             <div class="summary">
-                                <p>Worked on Datafusion, a newly acquired fully-remote startup company
-                                    at Thomson Reuters. Datafusion provides a visualization and integration platform for semantic
-                                    data, enabling disparate data silos
-                                    to be integrated into a singular knowledge graph.</p>
+                                <p>Worked on newly acquired fully-remote startup company (Datafusion). 
+                                  Ramped up on big data stack and implemented changes touching on core issues, including security and data stitching. 
+                                  Led cross-departmental project creating automated data-pipeline for published semantic content from HDFS to AWS Neptune.
+                                </p>
                             </div>
                             <ul class="highlights">
-                                <li>Quickly ramped up on big data stack and implemented changes to Datafusion,
-                                    that touched on core issues like security and data stitching</li>
-                                <li>Successfully led cross-departmental project to create an automated data-pipeline
-                                    that published semantic content from hdfs to AWS Neptune</li>
-                                <li>Setup AWS Neptune lab, which allowed other teams in Thomson Reuters to
-                                    use the lab instance to experiment witha and understand Knowledge Graph</li>
+                                <li>Provided expertise in visualization and integration platform for semantic data, enabling disparate data silos to be integrated into a singular knowledge graph.</li>
+                                <li>Set up AWS Neptune lab, allowing lab use, experimentation with, and understanding of Knowledge Graph.</li>
+                                <li>Led a team on an IOT hackathon effort using AWS IOT.
+                                  </li>
                                 <li>Reduced operating cost of datafusion and graphfeed in AWS by 18%</li>
+                                <li>Led knowledge transfer effort of products during sale to Blackstone.</li>
                             </ul>
                         </div>
                         <div class="item">
@@ -943,33 +921,24 @@ A proven leader with track record of successfully playing the following
                             </div>
                             <div class="summary">
                                 <p>Got recruited as a Cloud Solutions Architect to help a client implement
-                                    a culture of Cloud-First application development and DevOps. The contract
-                                    entailed coaching and guiding all layers of the IT</p>
+                                    a culture of cloud-ready application development and DevOps. The contract entailed coaching and guiding all layers of the IT and making the case for DevOps based on key metrics</p>
                             </div>
                             <ul class="highlights">
-                                <li>Successfully implemented a robust CI/CD pipeline at Werner, with a master/slave
-                                    farm and multiple stage gates that tested and deployed binaries to production.
-                                    This implementation was selected as a case study to showcase Sogeti&#x27;s
-                                    devops capabilities</li>
+                                <li>Coached Dev team to implement Test Driven Development which increased the unit-test coverage to 85% and also the quality of the coverage increased.
+                                  </li>
                                 <li>Coached Dev team to implement Test Driven Development which
-                                    increased the unit-test coverage to 85% and also the quality of the coverage
+                                    increased unit-test coverage to 85% and also the quality of the coverage
                                     increased</li>
-                                <li>Coached QA team to implement environment (dev, qa etc) specific automated
-                                    tests. The end-result was huge reduction in manual testing and overall
-                                    confidence in the code going to production</li>
-                                <li>Led build engineering team with their automation effort which resulted
-                                    in reduction on manual build processes and time to build projects.</li>
-                                <li>Help implement a solution that automated applying sql changes to database
-                                    as part of the Jenkins build, reducing the amount of time DBAs spent on
-                                    Dev and QA</li>
-                                <li>Provided expertise to IT and business leaders on cloud solutions, offerings
-                                    and migration strategies.</li>
-                                <li>Led Sogeti Omaha unit&#x27;s budding cloud practice, which included doing
-                                    tech demos and encouraging other consultants to join cloud practice.</li>
+                                <li>Coached QA team on Behavior Driven Development using Cucumber to implement environment specific automated tests. The end-result was huge reduction in manual testing and overall confidence in the code going to production.
+                                  </li>
+                                <li>Led build-engineering team to implement a robust CI\CD pipeline enabling the team to move focus away from day-to-day builds.
+                                  </li>
+                                <li>Led Sogeti Omaha cloud-practice, which included providing expertise on cloud solutions, migration strategies, and new offerings to IT and Business leaders.
+                                  </li>
                             </ul>
                         </div>
                         <div class="item">
-                            <div class="position">Lead Software Engineer</div>
+                            <div class="position">Sr. Web Application Developer\Dev Lead</div>
                             <div class="company">	<span class="name">
 									Schneider Electrics\DTN
 								</span>
@@ -991,15 +960,14 @@ A proven leader with track record of successfully playing the following
                                     resources as functional and direct reports</p>
                             </div>
                             <ul class="highlights">
-                                <li>Led a dev team of six functional reports and a direct report to architect
-                                    and deliver components of AgEssential, a web based financial app for Agribusiness.</li>
+                                <li>Led dev team with 6 functional reports and a direct report to architect and deliver components of AgEssential, a web based financial app for Agribusinesses.
+                                  </li>
                                 <li>Architected and implemented solution to rebuild a legacy monolith application
                                     into a set of microservices in spring-boot and Angular.</li>
                                 <li>Implemented a highly available Oauth2 server that mints JWT tokens</li>
-                                <li>Implemented various cross cutting concerns as aspects to an existing Spring-MVC
-                                    application.</li>
-                                <li>Solved performance issues on several key applications. Worked on optimizing
-                                    Web layer, business logic, caching, and SQL query tuning.</li>
+                                <li>Team lead for mobile admin project which enabled 200 plus agribusinesses with a combined user base of 6K users to create and customize their own hybrid mobile apps.
+                                  </li>
+                                <li>Solved performance issues on several key applications with a gain of 15 to 20% improvement.</li>
                             </ul>
                         </div>
                         <div class="item">
